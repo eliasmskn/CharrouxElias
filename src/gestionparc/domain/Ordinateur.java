@@ -8,10 +8,22 @@ public class Ordinateur
 		windows, linux, mac
 	}
 	private int id_O;
-	private String marque, type, proc, ram, ddur;
-	private OS os;
+	private String marque, type, proc, os, ram, ddur;
+
+	
+	
+	public Ordinateur()
+	{
+		this.id_O = 0;
+		this.marque = "";
+		this.type = "";
+		this.proc = "";
+		this.os = "";
+		this.ram = "";
+		this.ddur = "";
+	}
 		
-	public Ordinateur(int id_O, String Marque, String type, String Proc, OS Os, String Ram, String Ddur)
+	public Ordinateur(int id_O, String Marque, String type, String Proc, String Os, String Ram, String Ddur)
 	{
 		this.id_O = id_O;
 		this.marque = Marque;
@@ -35,7 +47,7 @@ public class Ordinateur
 	}
 
 	public void setMarque(String marque) {
-		marque = marque;
+		this.marque = marque;
 	}
 
 	public String getType() {
@@ -51,15 +63,15 @@ public class Ordinateur
 	}
 
 	public void setProc(String proc) {
-		proc = proc;
+		this.proc = proc;
 	}
 
-	public OS getOs() {
+	public String getOs() {
 		return os;
 	}
 
-	public void setOs(OS os) {
-		os = os;
+	public void setOs(String os) {
+		this.os = os;
 	}
 
 	public String getRam() {
@@ -67,7 +79,7 @@ public class Ordinateur
 	}
 
 	public void setRam(String ram) {
-		ram = ram;
+		this.ram = ram;
 	}
 
 	public String getDdur() {
@@ -75,7 +87,7 @@ public class Ordinateur
 	}
 
 	public void setDdur(String ddur) {
-		ddur = ddur;
+		this.ddur = ddur;
 	}
 	
 	

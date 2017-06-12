@@ -19,7 +19,7 @@ public class Telephone
 	}
 
 	public void setNum(String num) {
-		num = num;
+		this.num = num;
 	}
 
 	public String getMarque() {
@@ -27,7 +27,7 @@ public class Telephone
 	}
 
 	public void setMarque(String marque) {
-		marque = marque;
+		this.marque = marque;
 	}
 
 	public String getType() {
@@ -35,7 +35,7 @@ public class Telephone
 	}
 
 	public void setType(String type) {
-		type = type;
+		this.type = type;
 	}
 
 	public int getIMEI() {
@@ -43,7 +43,7 @@ public class Telephone
 	}
 
 	public void setIMEI(int iMEI) {
-		imei = iMEI;
+		this.imei = iMEI;
 	}
 
 	public int getId_T() {

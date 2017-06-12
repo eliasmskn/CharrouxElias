@@ -16,5 +16,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Elias/Documents/com.mongodb_2.6.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Elias/Documents/org.springframework.web_3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Elias/Documents/spring-data-mongodb-1.2.3.release.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

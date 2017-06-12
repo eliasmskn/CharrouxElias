@@ -20,7 +20,7 @@ public class Serveur
 	}
 
 	public void setMarque(String marque) {
-		marque = marque;
+		this.marque = marque;
 	}
 
 	public String getProc() {
@@ -28,7 +28,7 @@ public class Serveur
 	}
 
 	public void setProc(String proc) {
-		proc = proc;
+		this.proc = proc;
 	}
 
 	public String getRam() {
@@ -36,7 +36,7 @@ public class Serveur
 	}
 
 	public void setRam(String ram) {
-		ram = ram;
+		this.ram = ram;
 	}
 
 	public String getDdur() {
@@ -44,7 +44,7 @@ public class Serveur
 	}
 
 	public void setDdur(String ddur) {
-		ddur = ddur;
+		this.ddur = ddur;
 	}
 
 	public String getOs() {
@@ -52,7 +52,7 @@ public class Serveur
 	}
 
 	public void setOs(String os) {
-		os = os;
+		this.os = os;
 	}
 
 	public int getId_S() {

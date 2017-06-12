@@ -19,7 +19,7 @@ public class Utilisateur
 	}
 
 	public void setNom(String nom) {
-		nom = nom;
+		this.nom = nom;
 	}
 
 	public String getPrenom() {
@@ -27,7 +27,7 @@ public class Utilisateur
 	}
 
 	public void setPrenom(String prenom) {
-		prenom = prenom;
+		this.prenom = prenom;
 	}
 
 	public String getFonction() {
@@ -35,7 +35,7 @@ public class Utilisateur
 	}
 
 	public void setFonction(String fonction) {
-		fonction = fonction;
+		this.fonction = fonction;
 	}
 
 	public String getService() {
@@ -43,7 +43,7 @@ public class Utilisateur
 	}
 
 	public void setService(String service) {
-		service = service;
+		this.service = service;
 	}
 
 	public int getId_U() {
@@ -52,6 +52,12 @@ public class Utilisateur
 
 	public void setId_U(int id_U) {
 		this.id_U = id_U;
+	}
+
+	@Override
+	public String toString() {
+		return "Utilisateur [nom=" + nom + ", prenom=" + prenom + ", fonction="
+				+ fonction + ", service=" + service + ", id_U=" + id_U + "]";
 	}
 	
 	

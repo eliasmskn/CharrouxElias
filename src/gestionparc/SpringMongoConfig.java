@@ -15,7 +15,7 @@ public class SpringMongoConfig{
 	MongoTemplate mongoTemplate() throws Exception {
 
 		MongoTemplate mongoTemplate =
-			new MongoTemplate(new MongoClient("127.0.0.1"),"app1");
+			new MongoTemplate(new MongoClient("127.0.0.1"),"GestionParc");
 		return mongoTemplate;
 
 	}
